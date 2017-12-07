@@ -1,0 +1,112 @@
+body {
+						background-color:MediumSeaGreen;
+						/*background-image:url('/img/LED-icon.jpg');*/
+						background-repeat:no-repeat;
+						background-position:center;
+						background-size:cover;
+						font: bold 18px/25px Tahoma, sans-serif;
+						color: White;
+				}
+				
+				ul {
+						list-style-type: none;
+						margin: 0;
+						padding: 0;
+						overflow: hidden;
+						background-color: DarkSlateGray;
+				}
+
+				li {
+						float: left;
+				}
+
+				li a {
+						display: block;
+						color: white;
+						text-align: center;
+						padding: 16px;
+						text-decoration: none;
+				}
+        		button {
+        				display: block;
+        				position: relative;
+        				margin: 10px;
+        				padding: 0 10px;
+        				text-align: center;
+        				text-decoration: none;
+        				width: 130px;
+        				height: 40px;
+        				font: bold 18px/25px Tahoma, sans-serif;    				
+        				color: black;
+        				
+        				text-shadow: 1px 1px 1px rgba(255,255,255, .22);
+        				-webkit-border-radius: 30px;
+   						-moz-border-radius: 30px;
+    					border-radius: 30px;
+ 
+    					-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+    					box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+ 
+    					-webkit-transition: all 0.15s ease;
+    					-moz-transition: all 0.15s ease;
+    					-o-transition: all 0.15s ease;
+    					-ms-transition: all 0.15s ease;
+    					transition: all 0.15s ease;
+        		}
+        		
+        		input[type="range"] {
+        				display: block;
+        				width: 160px;
+        				height: 45px;
+        		}
+        		
+        		#gpio17.LOW {
+        				background-color: LightGray;
+        				color: Black;
+        		}
+        		
+        		#gpio17.HIGH {
+        				background-color: DarkTurquoise;
+        				color: White;
+        		}
+        		
+        		#gpio18.LOW {
+        				background-color: LightGray;
+        				color: Black;
+        		}
+        		
+        		#gpio18.HIGH {
+        				background-color: DarkTurquoise;
+        				color: White;
+        		}
+        		
+        		#gpio27.LOW {
+        				background-color: LightGray;
+        				color: Black;
+        		}
+        		
+        		#gpio27.HIGH {
+        				background-color: DarkTurquoise;
+        				color: White;
+        		}
+        		
+        		#gpio22.LOW {
+        				background-color: LightGray;
+        				color: Black;
+        		}
+        		
+        		#gpio22.HIGH {
+        				background-color: DarkTurquoise;
+        				color: White;
+        		}
+        		
+        		#gpio23.LOW {
+        				background-color: LightGray;
+        				color: Black;
+        		}
+        		
+        		#gpio23.HIGH {
+        				background-color: DarkTurquoise;
+        				color: White;
+        		}
